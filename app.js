@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
 })
 
 
+// chat getway routing
+const caht_users = require('./src/routes/users');   
+app.use('/caht_users',caht_users )
+
+
 const server = http.createServer(app)
 server.listen(port, '0.0.0.0', () => {
   console.log(`run in ${app.get('env')} mode on por ${port}`)
