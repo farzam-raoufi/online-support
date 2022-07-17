@@ -1,0 +1,36 @@
+.height-fix-box{
+  overflow: auto;
+  max-height: 80vh;
+}
+
+.message{
+  max-width: 75%;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px 0px 10px 0px;
+  display: block;
+}
+
+.received{
+  background: #9cf0b5 !important;
+  align-self: flex-start;
+}
+
+.sended{
+  background: #c8bde8 !important;
+  align-self: flex-end;
+}
+
+.input_box {
+  font-size: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
